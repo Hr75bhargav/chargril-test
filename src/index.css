@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Bricolage Grotesque', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Theme variables and scrollbars */
+[data-theme="chargrill-dark"] ::-webkit-scrollbar-track {
+  background: #181614;
+}
+
+[data-theme="chargrill-dark"] ::-webkit-scrollbar-thumb {
+  background: #332C24;
+  border-radius: 4px;
+}
+
+[data-theme="chargrill-dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}
+
+[data-theme="warm-cream"] ::-webkit-scrollbar-track {
+  background: #F3ECE1;
+}
+
+[data-theme="warm-cream"] ::-webkit-scrollbar-thumb {
+  background: #D8CEBE;
+  border-radius: 4px;
+}
+
+[data-theme="warm-cream"] ::-webkit-scrollbar-thumb:hover {
+  background: #E59A19;
+}

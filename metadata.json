@@ -1,0 +1,6 @@
+{
+  "name": "CharGrill Cafe, Indri",
+  "description": "Cafe & Pizzeria on Garhi Birbal Road, Indri, Haryana. Fresh pizza base, burgers, sandwiches, shakes, online ordering, and table booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
